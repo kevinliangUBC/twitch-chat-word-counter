@@ -39,6 +39,9 @@ public class Main
             fileWriter.write(text4);
             fileWriter.write("\n");
 
+//            String text = st.replaceAll("<([^<>]*)>\\s+|[^a-zA-Z0-9]", " ");
+//            System.out.println(text);
+
         }
 
         fileWriter.flush();
